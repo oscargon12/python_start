@@ -20,6 +20,7 @@
 # print('You have ' + dollar + ' pesos colombianos')
 
 #Menu de conversión
+#menu es la variable, y la triple commilla es como el input()
 menu = """
 Bienvenido al conversor de monedas 💰
 
