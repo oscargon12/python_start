@@ -8,10 +8,6 @@
 # print_msg()
 
 #Excercise
-
-from unittest import result
-
-
 def conversation(msg):
     print('Hola')
     print('Como estas')
@@ -28,10 +24,11 @@ elif option == 3:
 else:
     print('Elige una opcion correcta')
 
+
 def suma(a, b):
     print('Se suman dos numeros: ')
     result = a + b
     return result
 
 sumatoria = suma(1, 4) #sumatoria es una variable que contiene el return de la funcion
-print('El resultado es ' + sumatoria)
+print(sumatoria)
