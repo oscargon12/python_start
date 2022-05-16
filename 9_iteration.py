@@ -5,8 +5,8 @@
 
 def run():
     frase= input('Escribe una frase: ')
-    for c in frase:
-        print(c.upper())
+    for i in frase:
+        print(i.upper())
 
 if __name__ == '__main__':
     run()

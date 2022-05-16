@@ -15,7 +15,7 @@ def run():
     texto = input('Ingresa una palabra: ')
     for l in texto:
         if l == 'o':
-            break
+            break #Frena el ciclo hasta que encuentre un caracter 'o'
         print(l)
 
 if __name__ == '__main__':
