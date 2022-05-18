@@ -32,8 +32,12 @@ def run():
         #imprime 210147125
         #imprime 50372424
 
-    for pais, poblacion in poblacion_paises.items():
+#Recorriendo keys y values
+    for pais, poblacion in poblacion_paises.items(): #pais y habitantes son parametros
         print(pais + ' tiene ' + str(poblacion) + ' habitantes ')
+        #Argentina tiene 44938712 habitantes
+        #Brasil tiene 210147125 habitantes
+        #Colombia tiene 50372424 habitantes
 
 if __name__ == '__main__':
     run()
