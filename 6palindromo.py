@@ -1,6 +1,3 @@
-import re
-
-
 def palindromo(palabra):
     palabra = palabra.replace(' ', '') #se quitan los espacios
     palabra = palabra.lower() #se pone toda en lowercase
